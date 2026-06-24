@@ -1,21 +1,3 @@
-"""
-TRABALHO FINAL - AT2 N2
-NOVAS TECNOLOGIAS - GPE17N50289
-
-Projeto:
-Análise de vídeos em alta no YouTube
-
-Autor:
-Vinícius Tadeu Soares Silva
-
-Ideia principal:
-A coluna "views" do dataset é acumulada. Se o mesmo vídeo aparece em alta
-em vários dias, não faz sentido somar a coluna views diretamente.
-
-Por isso, este projeto cria a coluna "views_novas_estimadas", calculando a
-diferença entre a medição atual e a medição anterior do mesmo vídeo.
-"""
-
 from pathlib import Path
 import json
 
@@ -40,7 +22,7 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("📊 Análise de Vídeos em Alta no YouTube")
+st.title("Análise de Vídeos em Alta no YouTube")
 
 
 # =====================================================
