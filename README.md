@@ -1,4 +1,4 @@
-# 📊 YouTube Trending Analytics
+# YouTube Trending Analytics
 
 ## Análise de vídeos em alta no YouTube
 
